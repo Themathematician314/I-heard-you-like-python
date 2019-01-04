@@ -24,3 +24,5 @@ def gcd(a, b):
 
 def power(base, exponent, modulo):
     return ((base**exponent) % modulo)
+
+def Jacobi_Symbol(
