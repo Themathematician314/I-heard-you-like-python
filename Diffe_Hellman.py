@@ -30,4 +30,10 @@ def power(base, exponent, modulo):
 def prime_verifier(prime):
     root_prime = math.sqrt(prime)
     root_prime = ceil(math.sqrt(prime))
+    for i in range(root_prime):
+        if prime % root_prime == 1:
+            print("Not prime.")
+        else:
+            pass
     
+            
