@@ -35,5 +35,3 @@ def prime_verifier(prime):
             print("Not prime.")
         else:
             pass
-    
-            
